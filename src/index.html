@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>LIVING TRACES｜项目资料站</title>
+<meta name="description" content="项目三的资料、版本和交接记录。">
+<link rel="stylesheet" href="/site.css">
+<script type="module" src="/app.js"></script>
+</head>
+<body>
+<a class="skip" href="#main">跳到内容</a>
+<aside class="sidebar">
+  <div class="brand"><span class="mark">◉</span><div><strong>LIVING TRACES</strong><small>PROJECT 03 / ARCHIVE</small></div></div>
+  <div class="navlabel">工作空间</div>
+  <nav id="nav" aria-label="资料站导航">
+    <button data-view="home" aria-current="page"><span>⌂</span>项目概览</button>
+    <button data-view="library"><span>▤</span>资料库</button>
+    <button data-view="status"><span>↗</span>状态与交接</button>
+    <button data-view="diff"><span>≋</span>版本差异</button>
+    <button data-view="r2"><span>⬡</span>R2 包内索引</button>
+    <button data-view="changes"><span>◷</span>操作记录</button>
+  </nav>
+  <div class="sidebar-bottom"><i></i> 私有项目站 <span>03</span></div>
+</aside>
+<main id="main">
+  <header class="topbar"><div class="crumb">项目三 <span>/</span> <b id="view-name">项目概览</b></div><button id="new-record" class="primary">＋ 新增资料</button></header>
+  <div class="content" id="content"><p class="loading">正在读取项目资料…</p></div>
+  <p id="feedback" class="toast" role="status" hidden></p>
+</main>
+<dialog id="edit">
+  <form id="record-form">
+    <div class="dialog-head"><div><p class="eyebrow">PROJECT RECORD</p><h2 id="edit-title">新增资料</h2></div><button type="button" data-close="edit" class="icon" aria-label="关闭">×</button></div>
+    <label>资料名称<input name="title" required maxlength="120" placeholder="例如 R3 总装 STEP"></label>
+    <div class="cols">
+      <label>分类<select name="category" required></select></label>
+      <label>版本<input name="version" maxlength="80" placeholder="例如 R3 或 2026-11-07"></label>
+    </div>
+    <label>状态<input name="status" maxlength="40" list="states" placeholder="例如 待核验">
+    <datalist id="states"><option>待整理</option><option>待核验</option><option>现行基准</option><option>历史交付</option><option>软件已验</option><option>视觉参考</option><option>待实物核验</option><option>实物已验</option></datalist></label>
+    <label>说明<textarea name="note" rows="3" maxlength="3000" placeholder="来源、用途、验证证据或待确认项"></textarea></label>
+    <label>在线链接<input name="url" type="url" maxlength="700" placeholder="https://"></label>
+    <label id="attach-field">附件 <span class="muted">单文件最多 256 MB</span><input name="file" type="file"></label>
+    <div id="upload-state" aria-live="polite" hidden><progress max="100" value="0"></progress><p></p></div>
+    <p id="form-error" class="error" aria-live="polite" hidden></p>
+    <footer><button type="button" data-close="edit" class="button">取消</button><button type="submit" class="primary">保存资料</button></footer>
+  </form>
+</dialog>
+<dialog id="detail"><div id="detail-body"></div></dialog>
+</body>
+</html>

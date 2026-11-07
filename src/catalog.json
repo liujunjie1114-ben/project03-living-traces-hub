@@ -1,0 +1,1433 @@
+{
+  "records": [
+    {
+      "id": "P03-IN-01",
+      "category": "建模制造",
+      "title": "建模流程规范与差异审查",
+      "version": "2026-11-06",
+      "status": "审查参考",
+      "note": "R2 与目标图的差异和阶段关卡",
+      "url": "",
+      "sha256": "3d2c939e09cacba842db3556ab2508e780860fa249b7db1e1a39ed3ce5e8adde"
+    },
+    {
+      "id": "P03-IN-02",
+      "category": "视觉作品集",
+      "title": "视觉生成包",
+      "version": "2026-11-06",
+      "status": "历史快照",
+      "note": "沿用同哈希本地 ZIP，展开文件逐项一致",
+      "url": "",
+      "sha256": "833009d0a70e5501e90f4080f3158d2b57fdcb622708ba9fce954fc86fd2d9f9"
+    },
+    {
+      "id": "P03-IN-03",
+      "category": "建模制造",
+      "title": "R2 原始 ZIP",
+      "version": "R2",
+      "status": "历史交付",
+      "note": "原包留档。R2文件清单可打开包内文件",
+      "url": "",
+      "sha256": "d842b45786657dde6fea3dcc159d337c276f070062397cf24a87b10323a73a9e"
+    },
+    {
+      "id": "P03-IN-04",
+      "category": "研究进展",
+      "title": "项目进展分析",
+      "version": "2026-11-06",
+      "status": "历史快照",
+      "note": "导师讨论与工作建议",
+      "url": "",
+      "sha256": "4fe1fdeaf1c9978833872a1e6a6005b857283993003e3c84c8cc6adc967b3dce"
+    },
+    {
+      "id": "P03-IN-05",
+      "category": "建模制造",
+      "title": "外部装置工程提示词",
+      "version": "早期提案",
+      "status": "历史快照",
+      "note": "记录历史方案来源",
+      "url": "",
+      "sha256": "4d86120c43c917b5cb30ff326dec89580678b306390759913706cac8e14d76d6"
+    },
+    {
+      "id": "P03-IN-06",
+      "category": "建模制造",
+      "title": "R2 审查与 R3 制造优化任务",
+      "version": "2026-11-06",
+      "status": "审查参考",
+      "note": "后续任务的参考来源",
+      "url": "",
+      "sha256": "a325b217c7b3278766c49f02b3a65b0b183d9ea7020ea99c98258eb9441fcacf"
+    },
+    {
+      "id": "P03-IN-07",
+      "category": "研究进展",
+      "title": "完整研究论证与落地流程",
+      "version": "2026-11-05",
+      "status": "研究参考",
+      "note": "研究立场、实验方法和作品集论证",
+      "url": "",
+      "sha256": "91e332da5d312b6918beb92700db9f1df649827c47cc230097e03ef50935de7d"
+    },
+    {
+      "id": "P03-IN-08",
+      "category": "视觉作品集",
+      "title": "02 确认",
+      "version": "2026-11-06",
+      "status": "视觉参考",
+      "note": "主线故事板",
+      "url": "",
+      "sha256": "9b5bd40634ac7ea6ec35aa0d1b9b0a3814548cb9cc548d4d755948965e071560"
+    },
+    {
+      "id": "P03-IN-09",
+      "category": "视觉作品集",
+      "title": "03 观察与聆听",
+      "version": "2026-11-06",
+      "status": "视觉参考",
+      "note": "机制变体，植物状态与曲线为拟议情景",
+      "url": "",
+      "sha256": "227dc64c53c6a1e13bf72b92d7ddcf79badd3acf0d4763eecdccb0a748893cf0"
+    },
+    {
+      "id": "P03-IN-10",
+      "category": "视觉作品集",
+      "title": "04 回访",
+      "version": "2026-11-06",
+      "status": "视觉参考",
+      "note": "主线故事板，测量状态为拟议情景",
+      "url": "",
+      "sha256": "184395da5b61f885c97d1e2944f6fea1201001ec862dcae8333156ff27005bc7"
+    },
+    {
+      "id": "P03-IN-11",
+      "category": "视觉作品集",
+      "title": "03 观察",
+      "version": "2026-11-06",
+      "status": "视觉参考",
+      "note": "主线故事板",
+      "url": "",
+      "sha256": "0b0b549d7dd5ea5006ee76c0ff177a74afab01c5d6bf9b32c0aa2bf3deeb89f1"
+    },
+    {
+      "id": "P03-IN-12",
+      "category": "视觉作品集",
+      "title": "01 接近",
+      "version": "2026-11-06",
+      "status": "视觉参考",
+      "note": "主线故事板",
+      "url": "",
+      "sha256": "5cbc7756dd345b5895910d4702bc9fb89902b247d6e8a095b670a2e583c380cd"
+    },
+    {
+      "id": "P03-IN-13",
+      "category": "视觉作品集",
+      "title": "装置概念主图",
+      "version": "2026-11-06",
+      "status": "视觉参考",
+      "note": "轮廓、色彩和体验参考",
+      "url": "",
+      "sha256": "f20db8cd779197e0f9a798a365349bd0b6f91acfe43f34afb0cf76151635ca1a"
+    },
+    {
+      "id": "P03-IN-14",
+      "category": "视觉作品集",
+      "title": "01 来到这里",
+      "version": "2026-11-06",
+      "status": "视觉参考",
+      "note": "交互变体",
+      "url": "",
+      "sha256": "a5660a2faa0a1a4e5c8a87363401142b49d3a375e98ef9a0eabf4646cfcc1f89"
+    },
+    {
+      "id": "P03-IN-15",
+      "category": "视觉作品集",
+      "title": "外部结构概念图",
+      "version": "2026-11-06",
+      "status": "视觉参考",
+      "note": "拟议结构参考",
+      "url": "",
+      "sha256": "ea24e4167b16408d6ce0c78a3be667023e12f219b57ecbf68c70d643b00d64ef"
+    },
+    {
+      "id": "P03-M01",
+      "category": "建模制造",
+      "title": "制造需求统一参数",
+      "version": "P03-EXT-001",
+      "status": "现行基准",
+      "note": "外围结构范围、参数和单位",
+      "url": ""
+    },
+    {
+      "id": "P03-M02",
+      "category": "建模制造",
+      "title": "外围结构建模流程",
+      "version": "P03-EXT-001",
+      "status": "现行入口",
+      "note": "模型副本、编号、导出和交接",
+      "url": ""
+    },
+    {
+      "id": "P03-M03",
+      "category": "建模制造",
+      "title": "线上建模工作台",
+      "version": "R2 链接",
+      "status": "需账户核验",
+      "note": "本次匿名检查返回 HTTP 401",
+      "url": "https://plant-medium-assembly-r2.shuizhuzaocha.chatgpt.site/"
+    },
+    {
+      "id": "P03-M04",
+      "category": "建模制造",
+      "title": "总装 STEP",
+      "version": "R2",
+      "status": "历史交付",
+      "note": "历史总装",
+      "url": ""
+    },
+    {
+      "id": "P03-M05",
+      "category": "建模制造",
+      "title": "BOM",
+      "version": "R2",
+      "status": "历史交付",
+      "note": "82 项，原表保留 downloads/ 前缀",
+      "url": ""
+    },
+    {
+      "id": "P03-M06",
+      "category": "建模制造",
+      "title": "装配坐标",
+      "version": "R2",
+      "status": "历史交付",
+      "note": "569 行，含 20 个 emitter 位置",
+      "url": ""
+    },
+    {
+      "id": "P03-M07",
+      "category": "建模制造",
+      "title": "打印计划",
+      "version": "R2",
+      "status": "历史交付",
+      "note": "48 类，385 个计划实例",
+      "url": ""
+    },
+    {
+      "id": "P03-M08",
+      "category": "建模制造",
+      "title": "总装图",
+      "version": "R2",
+      "status": "历史交付",
+      "note": "总装与局部结构图",
+      "url": ""
+    },
+    {
+      "id": "P03-M09",
+      "category": "建模制造",
+      "title": "参数表",
+      "version": "R2",
+      "status": "历史交付",
+      "note": "历史设计值与候选制造参数",
+      "url": ""
+    },
+    {
+      "id": "P03-M10",
+      "category": "建模制造",
+      "title": "CAD 检查记录",
+      "version": "R2",
+      "status": "历史交付",
+      "note": "包内软件记录。整机干涉和实物待验",
+      "url": ""
+    },
+    {
+      "id": "P03-V01",
+      "category": "视觉作品集",
+      "title": "外观基准",
+      "version": "P03-LOOK-001",
+      "status": "候选待定",
+      "note": "乳白打印件与左侧双圆盘侧接座提案",
+      "url": ""
+    },
+    {
+      "id": "P03-V02",
+      "category": "视觉作品集",
+      "title": "外观基准主图",
+      "version": "P03-LOOK-001",
+      "status": "视觉参考",
+      "note": "与 V01 配对的外观图",
+      "url": ""
+    },
+    {
+      "id": "P03-V03",
+      "category": "视觉作品集",
+      "title": "第 5 页审阅",
+      "version": "v3",
+      "status": "视觉参考",
+      "note": "主图、结构图、主线四步故事板",
+      "url": ""
+    },
+    {
+      "id": "P03-V04",
+      "category": "视觉作品集",
+      "title": "展开视觉生成包",
+      "version": "2026-11-06",
+      "status": "历史快照",
+      "note": "177 个文件与 ZIP 逐项一致",
+      "url": ""
+    },
+    {
+      "id": "P03-S01",
+      "category": "软件与验证",
+      "title": "线上 Studio",
+      "version": "Phase 1 分享版",
+      "status": "可访问",
+      "note": "文字、摩斯、声音、光场和事件归档",
+      "url": "https://liujunjie1114-ben.github.io/project03-living-traces-demo/studio.html"
+    },
+    {
+      "id": "P03-S02",
+      "category": "软件与验证",
+      "title": "本地集成启动",
+      "version": "INT-001",
+      "status": "软件已验",
+      "note": "本地端口 8782，默认模拟设备",
+      "url": ""
+    },
+    {
+      "id": "P03-S03",
+      "category": "软件与验证",
+      "title": "集成任务清单",
+      "version": "INT-001",
+      "status": "现行入口",
+      "note": "既有 25 项逐项执行与验收表",
+      "url": ""
+    },
+    {
+      "id": "P03-S04",
+      "category": "软件与验证",
+      "title": "集成验证记录",
+      "version": "INT-001",
+      "status": "软件已验",
+      "note": "24 项 Python、10 项 Node 和 TD 软件证据",
+      "url": ""
+    },
+    {
+      "id": "P03-S05",
+      "category": "软件与验证",
+      "title": "TD 完成回执",
+      "version": "INT-001",
+      "status": "软件已验",
+      "note": "TD 软件与模拟灯共用事件的完成记录",
+      "url": ""
+    },
+    {
+      "id": "P03-S06",
+      "category": "软件与验证",
+      "title": "硬件与模型交接",
+      "version": "INT-001",
+      "status": "现行入口",
+      "note": "模型字段、布线和实物验收依赖",
+      "url": ""
+    },
+    {
+      "id": "P03-S07",
+      "category": "软件与验证",
+      "title": "灯位预览布局",
+      "version": "R2 参照",
+      "status": "历史参考",
+      "note": "空间顺序和实际电气地址分别管理",
+      "url": ""
+    },
+    {
+      "id": "P03-H01",
+      "category": "硬件与采集",
+      "title": "实物事实表",
+      "version": "INT-001",
+      "status": "待实物核验",
+      "note": "登记设备型号、供电与接线事实",
+      "url": ""
+    },
+    {
+      "id": "P03-H02",
+      "category": "硬件与采集",
+      "title": "第一批硬件采购建议",
+      "version": "2026-11-07",
+      "status": "候选待定",
+      "note": "采购建议与到手实物分别登记",
+      "url": ""
+    },
+    {
+      "id": "P03-H03",
+      "category": "硬件与采集",
+      "title": "波形与采集工具包",
+      "version": "既有原型",
+      "status": "模拟参考",
+      "note": "模拟、回放和真实采集记录格式",
+      "url": ""
+    },
+    {
+      "id": "P03-R01",
+      "category": "研究进展",
+      "title": "研究与功能框架",
+      "version": "研究稿",
+      "status": "研究参考",
+      "note": "真实信息、转译与反馈的研究问题",
+      "url": ""
+    },
+    {
+      "id": "P03-HUB-01",
+      "category": "项目管理",
+      "title": "项目工作流说明",
+      "version": "2026-11-07",
+      "status": "参考快照",
+      "note": "收件、分类、核验与交接流程",
+      "url": ""
+    },
+    {
+      "id": "P03-HUB-02",
+      "category": "项目管理",
+      "title": "资料总账快照",
+      "version": "2026-11-07",
+      "status": "参考快照",
+      "note": "可下载的本地总账快照",
+      "url": ""
+    }
+  ],
+  "status": [
+    {
+      "id": "01",
+      "title": "线上 Studio",
+      "version": "分享版",
+      "status": "可访问",
+      "area": "线上展示",
+      "note": "HTTP 200，页面为 Phase 01 Studio。现场演示走本地集成。",
+      "url": "https://liujunjie1114-ben.github.io/project03-living-traces-demo/studio.html",
+      "recordId": "P03-S01"
+    },
+    {
+      "id": "02",
+      "title": "建模工作台",
+      "version": "R2 链接",
+      "status": "需账户核验",
+      "area": "建模查看",
+      "note": "匿名访问返回 401。登录后可核对页面与本地交付版本。",
+      "url": "https://plant-medium-assembly-r2.shuizhuzaocha.chatgpt.site/",
+      "recordId": "P03-M03"
+    },
+    {
+      "id": "03",
+      "title": "制造范围",
+      "version": "P03-EXT-001",
+      "status": "现行基准",
+      "area": "建模制造",
+      "note": "外围结构与固定接口。主基座设计值 600×100 mm，上部包络 400 mm。",
+      "url": "",
+      "recordId": "P03-M01"
+    },
+    {
+      "id": "04",
+      "title": "历史 CAD",
+      "version": "R2",
+      "status": "历史交付",
+      "area": "归档与校验",
+      "note": "124 个包内文件，123 个清单哈希一致。几何、切片和实体试装分别验收。",
+      "url": "",
+      "recordId": "P03-M10"
+    },
+    {
+      "id": "05",
+      "title": "外观",
+      "version": "P03-LOOK-001",
+      "status": "候选待定",
+      "area": "外观建模",
+      "note": "目标图供形态比较，乳白外观和侧接座待定案。",
+      "url": "",
+      "recordId": "P03-V01"
+    },
+    {
+      "id": "06",
+      "title": "下一版 CAD",
+      "version": "R3",
+      "status": "待接收",
+      "area": "外观 → 控制",
+      "note": "收源文件、STEP、BOM、变更、坐标系、灯位、安装与走线空间和检查证据。",
+      "url": "",
+      "recordId": "P03-S06"
+    },
+    {
+      "id": "07",
+      "title": "本地集成",
+      "version": "INT-001",
+      "status": "软件已验",
+      "area": "控制与记录",
+      "note": "既有记录支持网页、TD 软件、模拟灯与归档。实物输出另验。",
+      "url": "",
+      "recordId": "P03-S04"
+    },
+    {
+      "id": "08",
+      "title": "控制板、灯与电源",
+      "version": "实物版本",
+      "status": "待实物核验",
+      "area": "实物 → 控制",
+      "note": "先登记实际型号、协议、供电及尺寸，再验证 USB、单灯和多灯。",
+      "url": "",
+      "recordId": "P03-H01"
+    },
+    {
+      "id": "09",
+      "title": "植物观测",
+      "version": "待定义",
+      "status": "待采集",
+      "area": "研究与采集",
+      "note": "先明确测量量、单位和前端，记录数据质量与对照。",
+      "url": "",
+      "recordId": "P03-H03"
+    },
+    {
+      "id": "10",
+      "title": "作品集",
+      "version": "第 5 页 v3",
+      "status": "视觉参考",
+      "area": "作品集",
+      "note": "分镜标拟议体验，TD 截图和回执单列为软件证据。",
+      "url": "",
+      "recordId": "P03-V03"
+    }
+  ],
+  "diff": [
+    {
+      "id": "D01",
+      "title": "欧根纱范围",
+      "source": "R2 含 8 组裁片；P03-EXT-001 保留固定接口与空间包络",
+      "status": "现行基准",
+      "note": "R2 fabric/ 归历史参考。外围制造清单按 P03-EXT-001 核对。",
+      "url": "",
+      "recordId": "P03-M01"
+    },
+    {
+      "id": "D02",
+      "title": "灯位与地址",
+      "source": "R2 表内 20 条 emitter；实际布线地址待定",
+      "status": "待实物核验",
+      "note": "R3 节点 ID、坐标和实体地址由新模型与接线记录确认。",
+      "url": "",
+      "recordId": "P03-M06"
+    },
+    {
+      "id": "D03",
+      "title": "灯盘材料",
+      "source": "概念图透明圆盘；当前制作路线为白色 PLA",
+      "status": "候选待定",
+      "note": "V01 使用乳白外观，透光与厚度待样件。",
+      "url": "",
+      "recordId": "P03-V01"
+    },
+    {
+      "id": "D04",
+      "title": "输入端底座",
+      "source": "概念图支杆立在展台；V01 提议侧接座",
+      "status": "候选待定",
+      "note": "外观定案后记录安装接口、拆装和总宽。",
+      "url": "",
+      "recordId": "P03-V01"
+    },
+    {
+      "id": "D05",
+      "title": "外观几何",
+      "source": "R2 为 34 mm 名义带宽；差异审查要求重审轮廓和灯位",
+      "status": "需复核",
+      "note": "按建模形态关卡核对后，再确定连接和加工细节。",
+      "url": "",
+      "recordId": "P03-IN-01"
+    },
+    {
+      "id": "D06",
+      "title": "原包引用",
+      "source": "96 个几何链接有 downloads/ 前缀；指南写 cad/，包内为 cad_source/",
+      "status": "需复核",
+      "note": "用 R2 文件清单定位原件。下一版本校验相对路径和重建。",
+      "url": ""
+    },
+    {
+      "id": "D07",
+      "title": "装配查看器",
+      "source": "R2 ZIP 内有 0 个 HTML；线上建模工作台为独立链接",
+      "status": "需账户核验",
+      "note": "收新包时单独核对是否随包提供离线查看器。",
+      "url": "https://plant-medium-assembly-r2.shuizhuzaocha.chatgpt.site/",
+      "recordId": "P03-M03"
+    }
+  ],
+  "r2": [
+    {
+      "category": "总装与工程资料",
+      "title": "ASSEMBLY_LOCATIONS_R2.csv",
+      "size": 39749,
+      "status": "与包内清单一致",
+      "sha256": "2c52bb37b86658420c8d6d4b0b6abe952f5fa0f09da9752ec2da7c972fe31b9a"
+    },
+    {
+      "category": "总装与工程资料",
+      "title": "BOM_R2.csv",
+      "size": 11980,
+      "status": "与包内清单一致",
+      "sha256": "d17ef52fd39a7454823c0b56a2262fb1011a99d2bf855e34f0d361db9bc863eb"
+    },
+    {
+      "category": "总装与工程资料",
+      "title": "BUILD_GUIDE_R2.md",
+      "size": 8233,
+      "status": "与包内清单一致",
+      "sha256": "b15e1c4e0086fd21460b31ca75aecb78eb4418cb8ede90651a777951d74cc34d"
+    },
+    {
+      "category": "总装与工程资料",
+      "title": "CAD_CHECKS_R2.json",
+      "size": 27712,
+      "status": "与包内清单一致",
+      "sha256": "204efe1ea9dd099ef73e6a8bb449b571170235e670db6ed749df20b7e39fa7bd"
+    },
+    {
+      "category": "总装与工程资料",
+      "title": "GENERAL_ARRANGEMENT_R2.pdf",
+      "size": 494793,
+      "status": "与包内清单一致",
+      "sha256": "f13eaf7230b78505c3b0215e694a6f0742bc64abddbd1a991eda7fbf4341a092"
+    },
+    {
+      "category": "总装与工程资料",
+      "title": "INSTALLATION_R2_ASSEMBLY.step",
+      "size": 32359546,
+      "status": "与包内清单一致",
+      "sha256": "31cb96f7bd6d0a354c00d596d6f3beb4ee0dce63dd814bcc8a8d20648d133d39"
+    },
+    {
+      "category": "总装与工程资料",
+      "title": "PARAMETERS_R2.json",
+      "size": 459,
+      "status": "与包内清单一致",
+      "sha256": "7491a0feee7e0f43097d042eca1c1f0cdc3ad7e0e2761ae50351187a5b14a615"
+    },
+    {
+      "category": "总装与工程资料",
+      "title": "PRINT_LIST_R2.csv",
+      "size": 5772,
+      "status": "与包内清单一致",
+      "sha256": "c060556a557632bc605d704d9b5bbcbbc02a3c7562cf49a1e0374dcab0ee5294"
+    },
+    {
+      "category": "总装与工程资料",
+      "title": "REQUIREMENTS.txt",
+      "size": 54,
+      "status": "与包内清单一致",
+      "sha256": "3e5885e62b41eb002559079d0ba2939730f5fb87e8c080ddcd76bd414e184d09"
+    },
+    {
+      "category": "总装与工程资料",
+      "title": "SHA256.json",
+      "size": 11279,
+      "status": "清单本身",
+      "sha256": "6b9af66dc3e0f90a9e41ad5d4f56b1657acd2f01b9a7963d0858bcd68f4de7bf"
+    },
+    {
+      "category": "CAD 源脚本",
+      "title": "cad_source/build_installation.py",
+      "size": 26116,
+      "status": "与包内清单一致",
+      "sha256": "53f4486f951a4513f725ec2c1a8618edc26f65abbf09ee6fc5a587005d44a400"
+    },
+    {
+      "category": "CAD 源脚本",
+      "title": "cad_source/package_model.py",
+      "size": 21490,
+      "status": "与包内清单一致",
+      "sha256": "3258c6dfd8578f35bc1f159b64ed3162e0ab3e01a879b555aa103ca3c1296ef2"
+    },
+    {
+      "category": "织物参考",
+      "title": "fabric/C01_boundary_mm.csv",
+      "size": 24261,
+      "status": "与包内清单一致",
+      "sha256": "f9e4b7479c4e30de57713fd06b23fa5e09d50b1d03c8809a3ff118fb8d4eb0db"
+    },
+    {
+      "category": "织物参考",
+      "title": "fabric/C01_fabric_1to1.dxf",
+      "size": 50572,
+      "status": "与包内清单一致",
+      "sha256": "022f514f9a9a01b4ddd71d6289023adb30ceb79ea04eaf3d12091cb075f076f2"
+    },
+    {
+      "category": "织物参考",
+      "title": "fabric/C02_boundary_mm.csv",
+      "size": 24261,
+      "status": "与包内清单一致",
+      "sha256": "b4f9db26338f6f9d60067c2f45986f9ccd5340d82e171ed4665cfe006f815c95"
+    },
+    {
+      "category": "织物参考",
+      "title": "fabric/C02_fabric_1to1.dxf",
+      "size": 50576,
+      "status": "与包内清单一致",
+      "sha256": "1f6ec963daf0ebb5ce0a1fdd1a3862ca5da9395b15adc2d70f50787aa77697eb"
+    },
+    {
+      "category": "织物参考",
+      "title": "fabric/C03_boundary_mm.csv",
+      "size": 24261,
+      "status": "与包内清单一致",
+      "sha256": "6b67b9da24e34543c3ecadf7c696599baa3fd90a6101c12d20f354b2e5dab805"
+    },
+    {
+      "category": "织物参考",
+      "title": "fabric/C03_fabric_1to1.dxf",
+      "size": 50600,
+      "status": "与包内清单一致",
+      "sha256": "1341ae04f6c3fdeeb6864ed711f21adad4d28d6e3c8fffee81e76af45a8ae759"
+    },
+    {
+      "category": "织物参考",
+      "title": "fabric/C04_boundary_mm.csv",
+      "size": 24261,
+      "status": "与包内清单一致",
+      "sha256": "3ed1625831e5ab849ef7c48115491fc0899832fe206fbf808380842b73c988b6"
+    },
+    {
+      "category": "织物参考",
+      "title": "fabric/C04_fabric_1to1.dxf",
+      "size": 50550,
+      "status": "与包内清单一致",
+      "sha256": "77e6c092048e54f44ca04bb88b4d8bac3eedbd5a0e0fd6e9b5cf294c11033255"
+    },
+    {
+      "category": "织物参考",
+      "title": "fabric/C05_boundary_mm.csv",
+      "size": 24261,
+      "status": "与包内清单一致",
+      "sha256": "c8df713243e3cf0545281211c193d3e94c832e68cd6bd74126115f5fce5dccfc"
+    },
+    {
+      "category": "织物参考",
+      "title": "fabric/C05_fabric_1to1.dxf",
+      "size": 50560,
+      "status": "与包内清单一致",
+      "sha256": "fb6b6707071fe04147ad7c4be69f664ca32f65b3c8ed9e7ebde60c85dce3ddb6"
+    },
+    {
+      "category": "织物参考",
+      "title": "fabric/C06_boundary_mm.csv",
+      "size": 24261,
+      "status": "与包内清单一致",
+      "sha256": "a4aab2e89f348d62d785c977d7aaa8034f1d099f61f9336e4154492b5a952a01"
+    },
+    {
+      "category": "织物参考",
+      "title": "fabric/C06_fabric_1to1.dxf",
+      "size": 50497,
+      "status": "与包内清单一致",
+      "sha256": "4657071c2356cabf6c8dc45ac3d23027486eb3e27dc1da59617e91e88178cb49"
+    },
+    {
+      "category": "织物参考",
+      "title": "fabric/C07_boundary_mm.csv",
+      "size": 24261,
+      "status": "与包内清单一致",
+      "sha256": "ec454865328373474ee313d9d1abbb1252b50ae038aaa04d2f078e326448435c"
+    },
+    {
+      "category": "织物参考",
+      "title": "fabric/C07_fabric_1to1.dxf",
+      "size": 50524,
+      "status": "与包内清单一致",
+      "sha256": "48f34658b1c5ffbd6802e0a63ca08ac7f73e6d0910fd243380cdf8abd5d992b7"
+    },
+    {
+      "category": "织物参考",
+      "title": "fabric/C08_boundary_mm.csv",
+      "size": 24261,
+      "status": "与包内清单一致",
+      "sha256": "b5f8150340e354d2e8c9ffb156ab46bca4b1158ede894e307bef12949ade202d"
+    },
+    {
+      "category": "织物参考",
+      "title": "fabric/C08_fabric_1to1.dxf",
+      "size": 50515,
+      "status": "与包内清单一致",
+      "sha256": "4cb9211288df2361e593d1bd7a297c80a9aa13a61052755fefed00c52c458669"
+    },
+    {
+      "category": "历史分件",
+      "title": "parts/A01.step",
+      "size": 90299,
+      "status": "与包内清单一致",
+      "sha256": "e8ecbb3fc542eb9348bb00f936c9d02d2a214f57922944fce96fdcd64d20220c"
+    },
+    {
+      "category": "历史分件",
+      "title": "parts/A01.stl",
+      "size": 158884,
+      "status": "与包内清单一致",
+      "sha256": "410622274b503cef13fe87116d4ba9355dffad3b3412a5d1585fd1ea5a27ae4c"
+    },
+    {
+      "category": "历史分件",
+      "title": "parts/A02.step",
+      "size": 28041,
+      "status": "与包内清单一致",
+      "sha256": "6713bc3fd134ac08110d8ebc0e38f3eff81139e90e8d4e603a6c5612d4f7a96c"
+    },
+    {
+      "category": "历史分件",
+      "title": "parts/A02.stl",
+      "size": 7084,
+      "status": "与包内清单一致",
+      "sha256": "5901e9e4e307fb095dbb362932031906b8e1f7495b220a39ac7276144552ed56"
+    },
+    {
+      "category": "历史分件",
+      "title": "parts/A03_S01.step",
+      "size": 28014,
+      "status": "与包内清单一致",
+      "sha256": "01f5ff5388fe55a4f74aa0a5475f07571b606dda8ca933118ec1d22f91225ad4"
+    },
+    {
+      "category": "历史分件",
+      "title": "parts/A03_S01.stl",
+      "size": 7084,
+      "status": "与包内清单一致",
+      "sha256": "c26960695273e6963d02d496a4fe9ce6d93303556ca931cf73e32e2444aeb0e3"
+    },
+    {
+      "category": "历史分件",
+      "title": "parts/A03_S02.step",
+      "size": 28133,
+      "status": "与包内清单一致",
+      "sha256": "b7f9018cefcabd5166f554fdf3b2c8340e47d3d3c7ef9c73adaa7477ead555e4"
+    },
+    {
+      "category": "历史分件",
+      "title": "parts/A03_S02.stl",
+      "size": 7084,
+      "status": "与包内清单一致",
+      "sha256": "94ea6f35451df6f0da974d621f78e120ab22ba8420ee03c55c939de46f23e081"
+    },
+    {
+      "category": "历史分件",
+      "title": "parts/A03_S03.step",
+      "size": 95001,
+      "status": "与包内清单一致",
+      "sha256": "cca45b8d9a6740a099985a6ce23afa693d1ad7c7f5297bde54a85939b043387c"
+    },
+    {
+      "category": "历史分件",
+      "title": "parts/A03_S03.stl",
+      "size": 76484,
+      "status": "与包内清单一致",
+      "sha256": "f428f864e7e5552ef4dbe2d350d3328cc24f111654f632ef6be73c72345be23b"
+    },
+    {
+      "category": "历史分件",
+      "title": "parts/A03_S04.step",
+      "size": 95026,
+      "status": "与包内清单一致",
+      "sha256": "6ce9053bdf24aa419179c33915215b8f9911d33040ecfcfc5136de760558f57f"
+    },
+    {
+      "category": "历史分件",
+      "title": "parts/A03_S04.stl",
+      "size": 76484,
+      "status": "与包内清单一致",
+      "sha256": "b2a738e9252e8a234248e21ed51d8ba92c0b3876c2b2ed3652730e2926112c6c"
+    },
+    {
+      "category": "历史分件",
+      "title": "parts/A03_S05.step",
+      "size": 28183,
+      "status": "与包内清单一致",
+      "sha256": "094e30a29150fa54722e7e138a1001c92cd0045c069ff8500ec77200aced6e34"
+    },
+    {
+      "category": "历史分件",
+      "title": "parts/A03_S05.stl",
+      "size": 7084,
+      "status": "与包内清单一致",
+      "sha256": "26a3032c1e60cad47fc6160a7715f5417813472a48146410e4933445ae0e4f05"
+    },
+    {
+      "category": "历史分件",
+      "title": "parts/A03_S06.step",
+      "size": 28221,
+      "status": "与包内清单一致",
+      "sha256": "6bf8f5f31ec57832b9e1a3c8b1d26262e1cb43eac632d4e526976c8c85058269"
+    },
+    {
+      "category": "历史分件",
+      "title": "parts/A03_S06.stl",
+      "size": 7084,
+      "status": "与包内清单一致",
+      "sha256": "03207e9471378fecad11c8c8959ec2dd20d1fd53ebacd003c50e889672a78c0a"
+    },
+    {
+      "category": "历史分件",
+      "title": "parts/A03_S07.step",
+      "size": 38627,
+      "status": "与包内清单一致",
+      "sha256": "0fea20b86f5af84f0fee4edc4a17766b3e6fd15650dac05f6878f0deaa005623"
+    },
+    {
+      "category": "历史分件",
+      "title": "parts/A03_S07.stl",
+      "size": 57884,
+      "status": "与包内清单一致",
+      "sha256": "156865390eed36ce41db8f32bf07afbe1100957859f13b8949e256298a96fe6b"
+    },
+    {
+      "category": "历史分件",
+      "title": "parts/A03_S08.step",
+      "size": 33354,
+      "status": "与包内清单一致",
+      "sha256": "298e95a79192f8649853f90139dfc90a16645994a5ef5b732fd87a00acb6a67a"
+    },
+    {
+      "category": "历史分件",
+      "title": "parts/A03_S08.stl",
+      "size": 32484,
+      "status": "与包内清单一致",
+      "sha256": "806d3f1d4b8b33115c5965aab9c817f5923330fb44047c6bd546ff88e9f4c79f"
+    },
+    {
+      "category": "历史分件",
+      "title": "parts/A03_S09.step",
+      "size": 43606,
+      "status": "与包内清单一致",
+      "sha256": "957fe4109d8636e89c56e7f6cb790e46af6a400296c0e0164e265b75ec240a8b"
+    },
+    {
+      "category": "历史分件",
+      "title": "parts/A03_S09.stl",
+      "size": 83284,
+      "status": "与包内清单一致",
+      "sha256": "983c0cb6ab941fc7fcb1f49da6a6830d32fdd3b5242babf1d8936392f7c777d0"
+    },
+    {
+      "category": "历史分件",
+      "title": "parts/A03_S10.step",
+      "size": 43650,
+      "status": "与包内清单一致",
+      "sha256": "7befbca47a2ec609c557cc9df6a6e3a2e63d003fd8a45d4be04ba444498c2aff"
+    },
+    {
+      "category": "历史分件",
+      "title": "parts/A03_S10.stl",
+      "size": 83284,
+      "status": "与包内清单一致",
+      "sha256": "6206d3f4f7f4b95a05bdf410b3b8dce7d6a14805891d6a796d2a4462b27e7e00"
+    },
+    {
+      "category": "历史分件",
+      "title": "parts/A03_S11.step",
+      "size": 33267,
+      "status": "与包内清单一致",
+      "sha256": "24f7b839588f89cbcdf7266052e5f2b81fdd151f8f3a12cd48a5cc6c5ccb2401"
+    },
+    {
+      "category": "历史分件",
+      "title": "parts/A03_S11.stl",
+      "size": 32484,
+      "status": "与包内清单一致",
+      "sha256": "ef9c4e01d810e6ffa3ca266ab81f46772b55ca889c68fa3d591296925216e39f"
+    },
+    {
+      "category": "历史分件",
+      "title": "parts/A03_S12.step",
+      "size": 28118,
+      "status": "与包内清单一致",
+      "sha256": "e550f792a70aa1dc247e4f3ea8064a70b827dc9eb55e5b5cfd5eb86ef6090fd6"
+    },
+    {
+      "category": "历史分件",
+      "title": "parts/A03_S12.stl",
+      "size": 7084,
+      "status": "与包内清单一致",
+      "sha256": "5a62b98af75754c0af2c290b260ff430f043e04af6da71a703024c5b713bf0d5"
+    },
+    {
+      "category": "历史分件",
+      "title": "parts/A04_S01.step",
+      "size": 49998,
+      "status": "与包内清单一致",
+      "sha256": "6a889c98e64fe9798500db7d982e83dedc306067d6c19e4633e95b8fca7d611a"
+    },
+    {
+      "category": "历史分件",
+      "title": "parts/A04_S01.stl",
+      "size": 37284,
+      "status": "与包内清单一致",
+      "sha256": "ee365466c96df30e3f31214be561bdb0c9ac385857541968e9f25087156b2487"
+    },
+    {
+      "category": "历史分件",
+      "title": "parts/A04_S02.step",
+      "size": 80749,
+      "status": "与包内清单一致",
+      "sha256": "3f2c5cc703fc32b51d449b57ed018b025882ec7b31103fd606885ac703a19425"
+    },
+    {
+      "category": "历史分件",
+      "title": "parts/A04_S02.stl",
+      "size": 130284,
+      "status": "与包内清单一致",
+      "sha256": "6d2b1443f59737460efd9317eef290273c7f7b5fa13eef7eb42e92791d9b0daa"
+    },
+    {
+      "category": "历史分件",
+      "title": "parts/A04_S03.step",
+      "size": 50098,
+      "status": "与包内清单一致",
+      "sha256": "060882e5a7848947aee5b863655a53d8e09f298ad730bf5259950e64baec44c9"
+    },
+    {
+      "category": "历史分件",
+      "title": "parts/A04_S03.stl",
+      "size": 37284,
+      "status": "与包内清单一致",
+      "sha256": "1d00aa427a357ca2e0a298b0f6098bf44fb8a2901e8aa9bf3a5c737890de3c07"
+    },
+    {
+      "category": "历史分件",
+      "title": "parts/A04_S04.step",
+      "size": 50146,
+      "status": "与包内清单一致",
+      "sha256": "37716c99de9744e9b7d3e89e557d684518dee6bfb07c0bba2f9b585b2823052a"
+    },
+    {
+      "category": "历史分件",
+      "title": "parts/A04_S04.stl",
+      "size": 37284,
+      "status": "与包内清单一致",
+      "sha256": "a012acd2cdac766a366fb15ef43f59866e3026d4111efa0f5945d74e251e7c00"
+    },
+    {
+      "category": "历史分件",
+      "title": "parts/A04_S05.step",
+      "size": 81255,
+      "status": "与包内清单一致",
+      "sha256": "1de099d0352b54694257ed56b5b46c9530c7b2fedf9ceb095a9c900ae2a3ebbc"
+    },
+    {
+      "category": "历史分件",
+      "title": "parts/A04_S05.stl",
+      "size": 130284,
+      "status": "与包内清单一致",
+      "sha256": "2f68bc4a6f308b831979769980ecc7f41fe14edba0058d41aba6b748fa60c0e9"
+    },
+    {
+      "category": "历史分件",
+      "title": "parts/A04_S06.step",
+      "size": 50028,
+      "status": "与包内清单一致",
+      "sha256": "f7fd61ceb8b913d16f208977279cf36554eb189af998cf9bc0849ca658aa1a7c"
+    },
+    {
+      "category": "历史分件",
+      "title": "parts/A04_S06.stl",
+      "size": 37284,
+      "status": "与包内清单一致",
+      "sha256": "8bc50fa2e1e4218a8ece2734aef5aaee69e20747baa4a911413c0d619f21faf1"
+    },
+    {
+      "category": "历史分件",
+      "title": "parts/A04_S07.step",
+      "size": 60761,
+      "status": "与包内清单一致",
+      "sha256": "9361cc80d771914a2c23aae04546149bb4949eacbeeed4b26b7db3f14681a0e6"
+    },
+    {
+      "category": "历史分件",
+      "title": "parts/A04_S07.stl",
+      "size": 88084,
+      "status": "与包内清单一致",
+      "sha256": "9e98ae622d52c260ed305b80059d144ff663fb952302f9194f31f73b1e5a2c24"
+    },
+    {
+      "category": "历史分件",
+      "title": "parts/A04_S08.step",
+      "size": 81508,
+      "status": "与包内清单一致",
+      "sha256": "472ec08d13eec4555b1a9d4800af585fe46146e392de2e887835c115e8c8f596"
+    },
+    {
+      "category": "历史分件",
+      "title": "parts/A04_S08.stl",
+      "size": 130284,
+      "status": "与包内清单一致",
+      "sha256": "1b4aa29dd7f08c97325612a6237223f00fe46b64716f163968619161a87bf2be"
+    },
+    {
+      "category": "历史分件",
+      "title": "parts/A04_S09.step",
+      "size": 50012,
+      "status": "与包内清单一致",
+      "sha256": "9c9932f4a61dcffe73950e94751ca9cfa39dec738118e0cc57279105bfdfda3f"
+    },
+    {
+      "category": "历史分件",
+      "title": "parts/A04_S09.stl",
+      "size": 37284,
+      "status": "与包内清单一致",
+      "sha256": "a78ad2ba54770c953c22c26d533e491b2533383a5af9a288df2de572ed14829e"
+    },
+    {
+      "category": "历史分件",
+      "title": "parts/A04_S10.step",
+      "size": 50056,
+      "status": "与包内清单一致",
+      "sha256": "9a79fa28a23a1f88d1b3dd8065dc0132d6b8944daf975fa4e7ceccf5116161ce"
+    },
+    {
+      "category": "历史分件",
+      "title": "parts/A04_S10.stl",
+      "size": 37284,
+      "status": "与包内清单一致",
+      "sha256": "fafd3c35416d047cfa3a84f025794a875851aa0c3bfbda8f7640f455e385e0b6"
+    },
+    {
+      "category": "历史分件",
+      "title": "parts/A04_S11.step",
+      "size": 80986,
+      "status": "与包内清单一致",
+      "sha256": "cb3e9416b3dffdb7a561294a1942f7f47280d9acd6dd58232a0ddf29736f7a75"
+    },
+    {
+      "category": "历史分件",
+      "title": "parts/A04_S11.stl",
+      "size": 130284,
+      "status": "与包内清单一致",
+      "sha256": "0d0eec589a6d3587447b980be427a417939ca3aacafa48fdcd731494a1875d38"
+    },
+    {
+      "category": "历史分件",
+      "title": "parts/A04_S12.step",
+      "size": 50063,
+      "status": "与包内清单一致",
+      "sha256": "0da592db7132a969126413090109425847fb3cd0096458bd4ba9b0e6975e2095"
+    },
+    {
+      "category": "历史分件",
+      "title": "parts/A04_S12.stl",
+      "size": 37284,
+      "status": "与包内清单一致",
+      "sha256": "aaa316a52b82b227fc11496a7e2a4f6c74f0838ddfbbf361610440153430a34d"
+    },
+    {
+      "category": "历史分件",
+      "title": "parts/A05.step",
+      "size": 24885,
+      "status": "与包内清单一致",
+      "sha256": "3b0af80a89fbe1dd6898688dbff82c65bfd8529a083cef7b127efa9117934cd5"
+    },
+    {
+      "category": "历史分件",
+      "title": "parts/A05.stl",
+      "size": 51484,
+      "status": "与包内清单一致",
+      "sha256": "ed3f4a50330a18cc7b17a5d85efd26578285635b7ccf6e0ca31b0ec2f85daf87"
+    },
+    {
+      "category": "历史分件",
+      "title": "parts/A06.step",
+      "size": 9557,
+      "status": "与包内清单一致",
+      "sha256": "b9f45ca84c95189230532c643708b25fdf232cc50b818818f80a8d557d88313b"
+    },
+    {
+      "category": "历史分件",
+      "title": "parts/A06.stl",
+      "size": 50484,
+      "status": "与包内清单一致",
+      "sha256": "d42ac9cd3df0b0a128aacbae5a7090cb30d614777ce4add757fb7908857a0e91"
+    },
+    {
+      "category": "历史分件",
+      "title": "parts/A07_Q1.step",
+      "size": 39988,
+      "status": "与包内清单一致",
+      "sha256": "009d5451a8e12a2f717d1fb6a105f5670b68eb649869cfd1cfeeae5e643fb704"
+    },
+    {
+      "category": "历史分件",
+      "title": "parts/A07_Q1.stl",
+      "size": 133684,
+      "status": "与包内清单一致",
+      "sha256": "977af7655951fcf0555f624664e304a4059c1e9b9cbc8ddffa17931ea5022e07"
+    },
+    {
+      "category": "历史分件",
+      "title": "parts/A07_Q2.step",
+      "size": 40091,
+      "status": "与包内清单一致",
+      "sha256": "912a82bb5f79791141e0f656317a0ba3e2a98ac55cef2e4019c497495f7d7d2d"
+    },
+    {
+      "category": "历史分件",
+      "title": "parts/A07_Q2.stl",
+      "size": 133684,
+      "status": "与包内清单一致",
+      "sha256": "96aca9d4abf411d290e7fb180f4ee7df38aa1ff18e5ac635644105ebed5ed14c"
+    },
+    {
+      "category": "历史分件",
+      "title": "parts/A07_Q3.step",
+      "size": 40183,
+      "status": "与包内清单一致",
+      "sha256": "1e259718f17756ce68917145c857e2740498ed7506fc34aa85f46868f89dd41e"
+    },
+    {
+      "category": "历史分件",
+      "title": "parts/A07_Q3.stl",
+      "size": 133684,
+      "status": "与包内清单一致",
+      "sha256": "04dc56abfd8b1ac6bdbecc3a5e17532ecdf25bc96dddeda4ac942ffe3b2c37cd"
+    },
+    {
+      "category": "历史分件",
+      "title": "parts/A07_Q4.step",
+      "size": 40166,
+      "status": "与包内清单一致",
+      "sha256": "c0a0f4066848071b367265cf987f61146b58a9923063ca2a241dfa71b9b1e6e5"
+    },
+    {
+      "category": "历史分件",
+      "title": "parts/A07_Q4.stl",
+      "size": 133684,
+      "status": "与包内清单一致",
+      "sha256": "7daf27d298e5a889340b3d270ce2eaf2587fb2195f17274660a5393fc37650ba"
+    },
+    {
+      "category": "历史分件",
+      "title": "parts/A08.step",
+      "size": 9562,
+      "status": "与包内清单一致",
+      "sha256": "15edf413c46095e9dfbf4f432fb61d2928f9e2cfa18168f9f8372472eb839990"
+    },
+    {
+      "category": "历史分件",
+      "title": "parts/A08.stl",
+      "size": 50484,
+      "status": "与包内清单一致",
+      "sha256": "667b40f81a873aa457fcd93efc026de23ffb5f69ed5bfc299547cc6f744204c2"
+    },
+    {
+      "category": "历史分件",
+      "title": "parts/A09.step",
+      "size": 9569,
+      "status": "与包内清单一致",
+      "sha256": "a65c0581234ee58ae955d3746c55040ef935076bbfa69b613ba7c4a8295c0d2d"
+    },
+    {
+      "category": "历史分件",
+      "title": "parts/A09.stl",
+      "size": 50484,
+      "status": "与包内清单一致",
+      "sha256": "7cafa6bbe9841ebfba83d06ec70d0312090095c49072370174797505db25cfab"
+    },
+    {
+      "category": "历史分件",
+      "title": "parts/B01.step",
+      "size": 127168,
+      "status": "与包内清单一致",
+      "sha256": "7e56b45d6c8d82e291c986181898308ff10a838cf0d886f91ce24d8f73db2830"
+    },
+    {
+      "category": "历史分件",
+      "title": "parts/B01.stl",
+      "size": 196884,
+      "status": "与包内清单一致",
+      "sha256": "9454be0b48eafda051c61612ea63fcc5b3f3b2dc96f568f66c3b028a18cbeb33"
+    },
+    {
+      "category": "历史分件",
+      "title": "parts/B01F.step",
+      "size": 146890,
+      "status": "与包内清单一致",
+      "sha256": "60a5efcff7a18d1018af638d6ee9ac469ed990443763bfadff2181ffcae55eb1"
+    },
+    {
+      "category": "历史分件",
+      "title": "parts/B01F.stl",
+      "size": 172684,
+      "status": "与包内清单一致",
+      "sha256": "ffaa4a7017892822e0b193dd8b89c697d57b58ce101ded53184c54630c3983c6"
+    },
+    {
+      "category": "历史分件",
+      "title": "parts/B02L.step",
+      "size": 46178,
+      "status": "与包内清单一致",
+      "sha256": "1783988bf668b2e859f9db80e0449be359fff0ab3f04d47f503c4e18b6c8c69b"
+    },
+    {
+      "category": "历史分件",
+      "title": "parts/B02L.stl",
+      "size": 69684,
+      "status": "与包内清单一致",
+      "sha256": "004cd3444bc08b2d2eb9ff2e4d98f0def5404accc721f8cc4220bb367224f0a3"
+    },
+    {
+      "category": "历史分件",
+      "title": "parts/B03.step",
+      "size": 88051,
+      "status": "与包内清单一致",
+      "sha256": "31fd3fa7ddc359d6c914c4a35440759124894705c550830d6efec6ddf9e44792"
+    },
+    {
+      "category": "历史分件",
+      "title": "parts/B03.stl",
+      "size": 96484,
+      "status": "与包内清单一致",
+      "sha256": "1f4cb848da3ead3cdb61b48cdc7bed3fb0d85caf98f00f7e5e5f1b19cfa7d592"
+    },
+    {
+      "category": "历史分件",
+      "title": "parts/B04.step",
+      "size": 34486,
+      "status": "与包内清单一致",
+      "sha256": "f5f084816f1f7b7964b63a35dd6a62e91cb8087595292c6af7446d99e453fbb9"
+    },
+    {
+      "category": "历史分件",
+      "title": "parts/B04.stl",
+      "size": 48084,
+      "status": "与包内清单一致",
+      "sha256": "3c6267a4ef715d1820058ecbebdf75dad4fa547555001a715a25243e3764ff71"
+    },
+    {
+      "category": "历史分件",
+      "title": "parts/D01L.step",
+      "size": 143711,
+      "status": "与包内清单一致",
+      "sha256": "5a6d584e16977d7ae882a01f7c9ce19789357c8f32ef40533aedd56f2554c58e"
+    },
+    {
+      "category": "历史分件",
+      "title": "parts/D01L.stl",
+      "size": 188084,
+      "status": "与包内清单一致",
+      "sha256": "c2a397350bf0429f98770fcc6b8c151dd496e673298c02de2c2b1fa3d5b9ea09"
+    },
+    {
+      "category": "历史分件",
+      "title": "parts/D01R.step",
+      "size": 145649,
+      "status": "与包内清单一致",
+      "sha256": "f28bbfabff25efc1f53a59c84a513aa71c10f85c2445042989a5be295604c576"
+    },
+    {
+      "category": "历史分件",
+      "title": "parts/D01R.stl",
+      "size": 188084,
+      "status": "与包内清单一致",
+      "sha256": "143983b0de174bafd685dde36d921e0b4021dadcf39de89c11608c212bd75ecc"
+    },
+    {
+      "category": "历史分件",
+      "title": "parts/D02L.step",
+      "size": 25844,
+      "status": "与包内清单一致",
+      "sha256": "f4e921b1747162b9511f57525c8b79de30237145f2573a1d12f333775d9fd6ec"
+    },
+    {
+      "category": "历史分件",
+      "title": "parts/D02L.stl",
+      "size": 76084,
+      "status": "与包内清单一致",
+      "sha256": "ffa3509bd3e81ad268cd70498dff4c820592f4ef6f8617cf590db28f1b7497e7"
+    },
+    {
+      "category": "历史分件",
+      "title": "parts/D02R.step",
+      "size": 27221,
+      "status": "与包内清单一致",
+      "sha256": "1848889754c8dba153c939cfe60be9f006d6cd9136f48043e672651d038ece97"
+    },
+    {
+      "category": "历史分件",
+      "title": "parts/D02R.stl",
+      "size": 76084,
+      "status": "与包内清单一致",
+      "sha256": "e7f37a0f9c1ce6a622c0c8965dadf2837f0c42c09cb34a661cdf1babd6b9833b"
+    },
+    {
+      "category": "历史分件",
+      "title": "parts/E03.step",
+      "size": 128995,
+      "status": "与包内清单一致",
+      "sha256": "16ce96ca6d389560081b9808c4729e8a9bbdb8f37fd1e270265216f710d0ec41"
+    },
+    {
+      "category": "历史分件",
+      "title": "parts/E03.stl",
+      "size": 156284,
+      "status": "与包内清单一致",
+      "sha256": "071160c74c1b0ff5377f964b1f5d94c2ebfad0587e780b188e5fb7f69ede995b"
+    },
+    {
+      "category": "历史分件",
+      "title": "parts/E06.step",
+      "size": 23821,
+      "status": "与包内清单一致",
+      "sha256": "29485fd816387c25c0dd7c3f3031df02d440461c69b1abc3baf9c9c7d6f5436a"
+    },
+    {
+      "category": "历史分件",
+      "title": "parts/E06.stl",
+      "size": 51484,
+      "status": "与包内清单一致",
+      "sha256": "0b94a9b2c06a9f48d6a6a207bb9d6f29967cc9f67cd0b183f20b688cb741b50d"
+    },
+    {
+      "category": "历史分件",
+      "title": "parts/E07.step",
+      "size": 44596,
+      "status": "与包内清单一致",
+      "sha256": "e0d4461bb62528ab8d3c94c0a4309af5ac630fbdff5432123f533f6e9ba21a4b"
+    },
+    {
+      "category": "历史分件",
+      "title": "parts/E07.stl",
+      "size": 102684,
+      "status": "与包内清单一致",
+      "sha256": "ba79ceca3474f066f9092d6ec2ffdeb8eed102b24b5144893752c9ec96733cbe"
+    },
+    {
+      "category": "历史分件",
+      "title": "parts/F01.step",
+      "size": 9557,
+      "status": "与包内清单一致",
+      "sha256": "3438d1b0dbfe81c0487d0db35a6b2bca15b66ed47b871e020412a5878d614b3e"
+    },
+    {
+      "category": "历史分件",
+      "title": "parts/F01.stl",
+      "size": 50484,
+      "status": "与包内清单一致",
+      "sha256": "7449861b7e4f19d57c98335b1c73bc18d453bf6c487ccb1ba3ef0a9de7746f34"
+    },
+    {
+      "category": "历史分件",
+      "title": "parts/F03.step",
+      "size": 65439,
+      "status": "与包内清单一致",
+      "sha256": "82d44f987fb366f1a8c5a71992d4eeeb38cc22beb59c393f98decd9a214f3bd7"
+    },
+    {
+      "category": "历史分件",
+      "title": "parts/F03.stl",
+      "size": 115384,
+      "status": "与包内清单一致",
+      "sha256": "93b4d335ff90924b952b24ebbf996756a74701b3bde3091c53f6680e3a22299b"
+    }
+  ]
+}
