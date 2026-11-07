@@ -12,9 +12,16 @@
 <a class="skip" href="#main">跳到内容</a>
 <aside class="sidebar">
   <div class="brand"><span class="mark">◉</span><div><strong>LIVING TRACES</strong><small>PROJECT 03 / ARCHIVE</small></div></div>
-  <div class="navlabel">工作空间</div>
+  <div class="navlabel">项目工作</div>
+  <nav id="work-nav" aria-label="工作项">
+    <a href="/" data-work-nav=""><span>⌂</span>全部工作</a>
+    <a href="/?work=portfolio" data-work-nav="portfolio"><span>01</span>作品集排版</a>
+    <a href="/?work=modeling" data-work-nav="modeling"><span>02</span>外观建模</a>
+    <a href="/?work=fabrication" data-work-nav="fabrication"><span>03</span>采购与制作</a>
+    <a href="/?work=hardware" data-work-nav="hardware"><span>04</span>硬件搭建</a>
+  </nav>
+  <div class="navlabel secondary-nav">资料与记录</div>
   <nav id="nav" aria-label="资料站导航">
-    <button data-view="home" aria-current="page"><span>⌂</span>项目概览</button>
     <button data-view="library"><span>▤</span>资料库</button>
     <button data-view="status"><span>↗</span>状态与交接</button>
     <button data-view="diff"><span>≋</span>版本差异</button>
@@ -24,7 +31,7 @@
   <div class="sidebar-bottom"><i></i> 私有项目站 <span>03</span></div>
 </aside>
 <main id="main">
-  <header class="topbar"><div class="crumb">项目三 <span>/</span> <b id="view-name">项目概览</b></div><button id="new-record" class="primary">＋ 新增资料</button></header>
+  <header class="topbar"><div class="crumb">项目三 <span>/</span> <b id="view-name">全部工作</b></div><button id="new-record" class="primary">＋ 新增资料</button></header>
   <div class="content" id="content"><p class="loading">正在读取项目资料…</p></div>
   <p id="feedback" class="toast" role="status" hidden></p>
 </main>
@@ -32,6 +39,7 @@
   <form id="record-form">
     <div class="dialog-head"><div><p class="eyebrow">PROJECT RECORD</p><h2 id="edit-title">新增资料</h2></div><button type="button" data-close="edit" class="icon" aria-label="关闭">×</button></div>
     <label>资料名称<input name="title" required maxlength="120" placeholder="例如 R3 总装 STEP"></label>
+    <label>归属工作<select name="workId"></select></label>
     <div class="cols">
       <label>分类<select name="category" required></select></label>
       <label>版本<input name="version" maxlength="80" placeholder="例如 R3 或 2026-11-07"></label>
@@ -47,5 +55,17 @@
   </form>
 </dialog>
 <dialog id="detail"><div id="detail-body"></div></dialog>
+<dialog id="work-editor">
+  <form id="progress-form">
+    <div class="dialog-head"><div><p class="eyebrow" id="progress-work"></p><h2>更新工作进度</h2></div><button type="button" data-close="work-editor" class="icon" aria-label="关闭">×</button></div>
+    <label>当前状态<input name="status" maxlength="100" required></label>
+    <label>当前进度<textarea name="summary" rows="3" maxlength="3000" required></textarea></label>
+    <label>下一步<textarea name="next" rows="2" maxlength="2000" required></textarea></label>
+    <label>卡点或待确认<textarea name="blocker" rows="2" maxlength="2000"></textarea></label>
+    <label>本次操作与结果<textarea name="note" rows="3" maxlength="3000" required placeholder="做了什么、结果、相关文件或验证"></textarea></label>
+    <p id="progress-error" class="error" aria-live="polite" hidden></p>
+    <footer><button type="button" data-close="work-editor" class="button">取消</button><button type="submit" class="primary">保存并记入历史</button></footer>
+  </form>
+</dialog>
 </body>
 </html>

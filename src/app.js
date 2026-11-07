@@ -2,7 +2,7 @@ const content=document.querySelector('#content');
 const editor=document.querySelector('#edit');
 const detail=document.querySelector('#detail');
 const form=document.querySelector('#record-form');
-const names={home:'项目概览',library:'资料库',status:'状态与交接',diff:'版本差异',r2:'R2 包内索引',changes:'操作记录'};
+const names={home:'全部工作',library:'资料库',status:'状态与交接',diff:'版本差异',r2:'R2 包内索引',changes:'操作记录'};
 const chunks=8*1024*1024;
 const filter={query:'',category:'',status:'',r2query:''};
 let catalog, active='home', editId='', pendingId='', busy=false, toastTimer;
@@ -30,7 +30,7 @@ async function api(path,method='GET',body){
   }
   return response.json();
 }
-async function refresh(){catalog=await api('/api/catalog');}
+async function refresh(){[catalog,trackList]=await Promise.all([api('/api/catalog'),api('/api/workstreams')]);}
 function notify(message){
   const el=document.querySelector('#feedback');
   el.hidden=false;
@@ -39,14 +39,7 @@ function notify(message){
   toastTimer=setTimeout(()=>el.hidden=true,4300);
 }
 function home(){
-  const image=record('P03-V02');
-  const cover=image?.hasFile?'<div class="hero-image"><img src="'+file(image.id,true)+'" alt="LIVING TRACES V01 装置外观候选图"></div>':'';
-  const links=['P03-S01','P03-M03'].map((id,i)=>external(record(id)?.url,i?'建模工作台':'Studio 演示')).join('');
-  const stats=[['library',catalog.records.length,'条资料'],['status',catalog.status.length,'条进展记录'],['r2',catalog.r2.length,'个 R2 包内文件']];
-  const mini=catalog.status.filter(x=>['03','04','05','06','07','08'].includes(x.id));
-  return '<section class="hero"><div class="hero-copy"><p class="eyebrow">PROJECT 03 / LIVING TRACES</p><h1>项目资料站</h1><p class="subtitle">统一查找装置建模、声光交互、作品集和研究资料。版本与交接记录随项目继续更新。</p><div class="action-row">'+links+'</div></div>'+cover+'</section>'+
-    '<div class="stats">'+stats.map(([view,count,label])=>'<button class="stat" data-view="'+view+'"><strong>'+count+'</strong><span>'+esc(label)+'</span></button>').join('')+'</div>'+
-    '<section><div class="section-head"><h2>项目状态</h2>'+button('view','status','查看全部')+'</div><div class="version-grid">'+mini.map(x=>'<article class="panel mini"><small>'+esc(x.version)+'</small><h3>'+esc(x.title)+'</h3><p>'+badge(x.status)+'</p><p>'+esc(x.note)+'</p>'+(x.recordId?article(x.recordId):'')+'</article>').join('')+'</div></section>';
+  return workHome();
 }
 function libraryTable(){
   const query=filter.query.trim().toLowerCase();
@@ -95,6 +88,9 @@ function render(view=active){
   if(!catalog) return;
   active=names[view]?view:'home';
   document.querySelector('#view-name').textContent=names[active];
+  const allWork=document.querySelector('[data-work-nav=""]');
+  if(active==='home') allWork.setAttribute('aria-current','page');
+  else allWork.removeAttribute('aria-current');
   for(const el of document.querySelectorAll('#nav button')){
     if(el.dataset.view===active) el.setAttribute('aria-current','page');
     else el.removeAttribute('aria-current');
@@ -102,6 +98,7 @@ function render(view=active){
   content.innerHTML=renderers[active]();
 }
 function navigate(view){
+  if(workKey){location.assign('/#'+view);return;}
   if(location.hash.slice(1)===view) render(view);
   else location.hash=view;
 }
@@ -122,8 +119,10 @@ function edit(item){
   pendingId='';
   form.reset();
   document.querySelector('#edit-title').textContent=item?'编辑资料':'新增资料';
+  form.elements.workId.innerHTML='<option value="">通用资料</option>'+trackList.map(x=>'<option value="'+esc(x.id)+'">'+esc(x.name)+'</option>').join('');
+  form.elements.workId.value=item?.workId||workKey||'';
   form.elements.category.innerHTML=catalog.categories.map(x=>'<option>'+esc(x)+'</option>').join('');
-  form.elements.category.value=item?.category||filter.category||'待归档';
+  form.elements.category.value=item?.category||defaultCategory[workKey]||filter.category||'待归档';
   for(const key of ['title','version','status','note','url']) form.elements[key].value=item?.[key]||'';
   document.querySelector('#attach-field').hidden=Boolean(item?.hasFile);
   document.querySelector('#upload-state').hidden=true;
@@ -182,7 +181,8 @@ form.addEventListener('submit',async event=>{
     await refresh();
     editor.close();
     pendingId='';
-    navigate('library');
+    if(workKey) await loadWork();
+    else navigate('library');
     notify('资料已保存');
   }catch(error){
     errorEl.textContent=error.message+(pendingId?'。资料记录已保存，可以重试附件上传。':'');
@@ -210,7 +210,8 @@ content.addEventListener('change',event=>{
   else return;
   document.querySelector('#result').innerHTML=libraryTable();
 });
-window.addEventListener('hashchange',()=>render(location.hash.slice(1)));
-try{await refresh();render(location.hash.slice(1));}
+window.addEventListener('hashchange',()=>{if(!workKey) render(location.hash.slice(1));});
+wireWorkUi();
+try{await refresh();if(workKey) await loadWork();else render(location.hash.slice(1));}
 catch(error){content.innerHTML='<p class="error">读取资料失败。'+esc(error.message)+' 请刷新后重试。</p>';}
 
